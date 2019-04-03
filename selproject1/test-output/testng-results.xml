@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20639" started-at="2019-03-08T18:45:23Z" finished-at="2019-03-08T18:45:44Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20639" started-at="2019-03-08T18:45:23Z" finished-at="2019-03-08T18:45:44Z">
+      <class name="com.test.GoogleTitleTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.GoogleTitleTest@5034c75a]" name="setup" is-config="true" duration-ms="7761" started-at="2019-03-08T18:45:23Z" finished-at="2019-03-08T18:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="googleLogoTest()[pri:0, instance:com.test.GoogleTitleTest@5034c75a]" name="googleLogoTest" duration-ms="89" started-at="2019-03-08T18:45:31Z" finished-at="2019-03-08T18:45:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleLogoTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.GoogleTitleTest@5034c75a]" name="teardown" is-config="true" duration-ms="2763" started-at="2019-03-08T18:45:31Z" finished-at="2019-03-08T18:45:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.test.GoogleTitleTest@5034c75a]" name="setup" is-config="true" duration-ms="7204" started-at="2019-03-08T18:45:34Z" finished-at="2019-03-08T18:45:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="googletitleTest()[pri:0, instance:com.test.GoogleTitleTest@5034c75a]" name="googletitleTest" duration-ms="31" started-at="2019-03-08T18:45:41Z" finished-at="2019-03-08T18:45:41Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[title is not matched expected [Google123] but found [Google]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: title is not matched expected [Google123] but found [Google]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at com.test.GoogleTitleTest.googletitleTest(GoogleTitleTest.java:32)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googletitleTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.GoogleTitleTest@5034c75a]" name="teardown" is-config="true" duration-ms="2761" started-at="2019-03-08T18:45:41Z" finished-at="2019-03-08T18:45:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.GoogleTitleTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
